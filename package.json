@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
+    "build": "npx tsc",
     "dev": "ts-node-dev src/server.ts",
-    "test": "jest"
+    "start": "node build/server.js"
   },
   "keywords": [],
   "author": "",
